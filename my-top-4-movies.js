@@ -48,7 +48,7 @@ let favMovies = [
 console.log("The title of the first movie is " + favMovies[0].title + "." + "\nThe director that made the movie is named " + favMovies[0].director + "." + "\nThe year of realease of the second movie is " + favMovies[1].yearOfRelease + "." + "\nThe IMDB rating of the third movie is " + favMovies[2].imdbRating + "." + "\nThe short description of the fourth movie is: " + favMovies[3].shortDescription + "\nThe lead writer of the second movie is: " + favMovies[1].writers + "." + "\nThe lead star of the third movie is: " + favMovies[2].stars + "." + "\nThe main genre of the fourth movie is: " + favMovies[3].genres + ".");
 
 let averageRating = (favMovies[0].imdbRating + favMovies[1].imdbRating + favMovies[2].imdbRating + favMovies[3].imdbRating) / favMovies.length;
-console.log(averageRating);
+// console.log(averageRating);
 
 let movieAges = [];
 
@@ -58,7 +58,7 @@ for (i = 0; i < favMovies.length - 1; i++)
     movieAges.push(movieAge);
 }
 
-console.log(movieAges);
+// console.log(movieAges);
 
 let totalAge = 0;
 
