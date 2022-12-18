@@ -70,3 +70,4 @@ for (i = 0; i < movieAges.length - 1; i++)
 let averageAge = totalAge / favMovies.length;
 
 console.log(averageAge);
+
